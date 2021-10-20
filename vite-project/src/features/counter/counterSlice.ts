@@ -2,6 +2,7 @@
 import { createSlice,PayloadAction } from "@reduxjs/toolkit";
 
 
+
 interface counterState {
     value:number;
 }
@@ -18,8 +19,11 @@ const counterSlice = createSlice({
   reducers: {
           // incerement
     inceremented(state) {
-        state.value + 1;
+        state.value ++;
     },
+    amountAdded(state, action:PayloadAction<number>){
+        state.value += action.payload
+    }
 
   },
 });
