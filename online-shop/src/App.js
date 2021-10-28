@@ -9,9 +9,9 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" componrnt={Home} />
-        <Route exact path="/card" componrnt={Card} />
+        <Route path="/card" componrnt={Card} />
       </Switch>
-      <GlobalStyle/>
+      <GlobalStyle />
     </div>
   );
 }

@@ -25,13 +25,13 @@ cursor: pointer;
 
 
 
-export const BoxIconShope = styled.div`
+export const BoxIconShope = styled(Link)`
   font-size: 40px;
   /* background: red; */
   height: 60px;
   width: 50px;
   padding-top: 10px;
- 
+  color: #1e1f25;
 `;
 export const ContainerIcon = styled.section`
   margin-right: 15px;
