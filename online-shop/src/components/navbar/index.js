@@ -10,9 +10,9 @@ import {HiShoppingCart} from "react-icons/hi"
 function Navbar() {
     return (
         <Nav>
-            <TitleNav to="/">online Shope</TitleNav>
+            <TitleNav  to="/" >onlineShope</TitleNav>
             <ContainerIcon>
-            <BoxIconShope>
+            <BoxIconShope to="/card">
                 <HiShoppingCart/>
             </BoxIconShope>
             < NumberProduct>3</NumberProduct>
