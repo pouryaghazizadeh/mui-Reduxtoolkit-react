@@ -16,6 +16,17 @@ function Home() {
         <div>home</div>
         <div>home</div>
         <div>home</div>
+        <div>home</div>
+        <div>home</div>
+        <div>home</div>
+        <div>home</div>
+        <div style={{color:"red"}}>home</div>
+        <div>home</div>
+        <div>home</div>
+        <div>home</div>
+        <div>home</div>
+        <div>home</div>
+        <div>home</div>
       </div>
     );
 }
