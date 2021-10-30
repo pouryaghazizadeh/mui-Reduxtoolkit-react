@@ -1,6 +1,6 @@
 const express = require("express")
 const cors = require("cors")
-
+const products = require("./products")
 const app = express()
 
 
@@ -13,6 +13,11 @@ app.get("/",(req,res)=>{
 res.send("welcome to home page")
 })
 
+app.get("/products", (req, res) => {
+  res.send(products );
+});
+
+
 
 const port = process.env.PORT || 5000
-app.listen(port, console.log("server runing"));
+app.listen(port, console.log("server runing port 5000"));
